@@ -84,6 +84,8 @@ export default createWidget("category-header-widget", {
         !isSubCategory &&
         !hideMobile
       ) {
+        console.log('category:', category);
+
         document.body.classList.add("category-header");
 
         return h(
