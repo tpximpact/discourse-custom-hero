@@ -1,6 +1,7 @@
 {
   "name": "BCN Discourse Hero Plugin",
   "component": true,
-  "about_url": "",
-  "license_url": ""
+  "about_url": "https://github.com/tpximpact/discourse-custom-hero",
+  "license_url": "https://github.com/tpximpact/discourse-custom-hero/blob/main/LICENSE",
+  "authors": "TPX Impact"
 }
