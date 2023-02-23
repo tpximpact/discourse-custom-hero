@@ -1,8 +1,8 @@
 import { getOwner } from "discourse-common/lib/get-owner";
-import { h } from "virtual-dom";
 import { iconNode } from "discourse-common/lib/icon-library";
-import { createWidget } from "discourse/widgets/widget";
 import Category from "discourse/models/category";
+import { createWidget } from "discourse/widgets/widget";
+import { h } from "virtual-dom";
 
 function buildCategory(category, widget) {
   const content = [];
@@ -57,6 +57,8 @@ export default createWidget("category-header-widget", {
       const category = Category.findBySlugPathWithID(
         route.params.category_slug_path_with_id
       );
+      console.log('👻 ');
+
 
       const isException = settings.exceptions
         .split("|")

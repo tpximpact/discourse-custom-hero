@@ -1,5 +1,3 @@
-# discourse-category-banners
+# bcn-discourse-hero-plugin
 
-A theme component to add category banners to your Discourse community.
-
-More details here: https://meta.discourse.org/t/discourse-category-banners/86241
+A theme component to add BCN hero to the Discourse community.
