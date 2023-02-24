@@ -57,7 +57,6 @@ export default createWidget("category-header-widget", {
       const category = Category.findBySlugPathWithID(
         route.params.category_slug_path_with_id
       );
-      console.log('👻 ');
 
 
       const isException = settings.exceptions
@@ -84,7 +83,7 @@ export default createWidget("category-header-widget", {
         !isSubCategory &&
         !hideMobile
       ) {
-        console.log('category:', category);
+
 
         document.body.classList.add("category-header");
 
